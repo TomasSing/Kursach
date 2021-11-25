@@ -1,0 +1,644 @@
+@media screen and (max-width: 1920px){
+
+			/*header*/
+html, body {                   
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto Condensed' sans-serif;
+	color: black;
+	font-size: 24px;
+	max-width: 1920 px;
+}
+
+._block {
+	overflow-x: hidden;
+}
+
+@media (max-width: 1440px){
+
+}
+
+.about {
+	padding-top: 100px;
+}
+
+header a {
+	color: #000;
+}
+
+.header {
+	position: fixed;
+	z-index: 10;
+}
+
+.bgheader {
+	height: 100px;
+	width: 1920px;
+	background-color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -10;
+}
+
+.container {
+	margin-right: 80px;
+	margin-left: 275px;
+}
+
+.imgmain {
+	max-width: ;
+}
+
+@media (max-width: 1440px) {
+	.container {
+	margin-right: 40px;
+	margin-left: 25px;
+}
+
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	margin-top: 25px;
+	margin-left: 40px;
+	
+}
+
+.menubutton {
+  position: relative;
+  margin-right: auto;
+  z-index: 12;
+}
+
+.menubutton button {
+  width: 45px;
+  height: 45px;
+  background: #ffffff;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.55s ease-in;
+}
+
+.menubutton._active button {
+  box-shadow: 1px 1px 40px 1px rgba(44, 207, 207, 100);
+}
+
+.menubutton button span {
+  position: absolute;
+  top: 20px;
+  right: 12px;
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #000;
+  border-radius: 6px;
+  transition: all 0.35s ease-out;
+}
+
+.menubutton button span:nth-child(2) {
+  left: 13px;
+  top: 25px;
+  width: 14px;
+}
+
+.menubutton._active button span:nth-child(2) {
+  top: 20px;
+}
+
+.headermenu-bar {
+  position: fixed;
+  background-color: #f6f6f6;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: 11;
+  top: -120%;
+  opacity: 0;
+  left: 0;
+  transition: all 0.7s ease 0s;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.menu-baractions {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .menu-baractions {
+    display: flex;
+    flex-direction: column;
+  }
+  .headermenu-bar {
+    padding: 30px 0px 0px 0px;
+  }
+}
+
+@media (min-width: 800px){
+	.headermenu-bar {
+		display: none;
+	}
+	.menubutton {
+		display: none;
+	}
+}
+
+.containermenu {
+  max-width: 1200px;
+  padding: 0 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.menu-baractions a {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.headermenu-bar li {
+  position: relative;
+  font-size: 25px;
+  margin: 10px 0 0 0;
+  transition: all 0.5s ease 0s;
+}
+
+.headermenu-bar._active {
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+
+.headermenu-bar._active.header__menu-bar li {
+  bottom: 0;
+  opacity: 1;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 48 px;
+}
+
+.menu li {
+	margin-right: 50px;
+}
+
+.menu-barlist li {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 48 px;
+}
+
+.logo {
+	margin-right: 100px;
+	position: relative;
+	z-index: 12;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.contact {
+	position: relative;
+	z-index: 12;
+}
+
+.tel{
+	font-size: 24px;
+	text-decoration: none;
+	margin-left: auto;
+	align-items: center;
+	position: relative;
+}
+
+			
+		/*section*/
+
+.container4 {
+	margin-left: auto;
+}
+
+#fon, #man, #push {
+	position: relative;	
+}
+
+#fon {
+	width: 100%;
+}
+
+@media (max-width: 1440px) {
+	.imgmain {
+		width: 1440px;
+	}
+}
+
+#man {
+	top: -759px;
+	left: 900px;
+}
+
+#push {
+	top: -1350px;
+	left: 200px;
+}
+
+.bol h2 {
+position: absolute;
+width: 500px;
+height: 93px;
+left: 148px;
+top: 461px;
+
+font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 85px;
+text-align: center;
+
+color: #000000;
+}
+
+@media (max-width: 1440px) {
+	.bol h2 {
+position: absolute;
+width: 500px;
+height: 93px;
+left: 148px;
+top: 300px;
+}
+
+}
+
+
+
+.bol h3 {
+position: absolute;
+width: 433px;
+height: 112px;
+left: 175px;
+top: 750px;
+margin: 0;
+
+font-family: Segoe UI;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 64px;
+text-align: center;
+
+color: #000000;
+
+}
+
+@media (max-width: 1440px){
+	.bol h3 {
+		top: 550px;
+	}
+}
+
+h1, h2 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h4	{
+	font-size: 40px;
+	margin-left: 800px;
+	font-style: oblique;
+}
+
+@media (max-width: 1440px) {
+	h4	{
+	font-size: 40px;
+	margin-left: 575px;
+	font-style: oblique;
+}
+}
+
+h5 {
+	font-size: 30px;
+}
+
+h6 {
+	font-size: 40px;
+	margin-left: 600px;
+	margin-bottom: 50px;
+}
+
+@media (max-width: 1440px) {
+	h6 {
+	font-size: 40px;
+	margin-left: 400px;
+	margin-bottom: 50px;
+}
+}
+
+.knopki {
+	text-align: center;
+}
+
+.menu_link{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 36px;
+    font-style: oblique;
+}
+
+p {
+	font-size: 36px;
+}
+
+.active, 
+.menu_link:hover{ 
+background-color: ; 
+}
+
+.content { 
+font-style: oblique;
+padding: 0 18px; 
+max-height: 0; 
+overflow: hidden; 
+transition: max-height 0.2s ease-out; 
+background-color: white ;
+}
+
+.container1 {
+	display: flex;
+	align-items: stretch;
+	flex-direction: row;
+	font-size: 24px;
+}
+
+.container1 img {
+	margin-left: 100px;
+	margin-top: 100px;
+}
+
+@media (max-width: 1440px){
+	.container1 img {
+		margin: 0;
+	}
+}
+
+.container1 div {
+	padding-top: -50px;
+	padding-left: 75px;
+	border: 3px solid silver;
+}
+
+@media (max-width: 1440px){
+	.container1 div {
+		padding: 0;
+		padding-left: 0;
+	}
+}
+
+.container2 {
+	display: flex;
+	align-items: stretch;
+	flex-direction: row;
+}
+
+.container2 img {
+	margin-left: 100px;
+	margin-top: 100px;
+}
+
+.container2 div {
+	padding-top: -10px;
+	padding-left: 150px;
+	border: 3px solid silver;
+}
+
+@media (max-width: 1440px){
+	.container2 div{
+	padding: 0;
+	}
+	.container2 {
+		display: flex;
+		justify-content: center;
+
+	}
+}
+
+
+
+
+.container3 {
+	display: flex;
+	align-items: stretch;
+	flex-direction: row;
+}
+
+.container3 img {
+	margin-left: 100px;
+	margin-top: 100px;
+}
+
+.container3 div {
+	padding-top: -150px;
+	padding-left: 250px;
+	border: 3px solid silver;
+}
+
+@media (max-width: 1440px){
+	.container3 div{
+		padding: 0;
+	}
+}
+
+@media (max-width: 1440px){
+	h5 {
+		font-size: 25px;
+		justify-content: center;
+
+	}
+}
+
+@media (max-width){
+.box {
+	flex: 3;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	font-size: 25px;
+}
+}
+
+
+
+.box {
+flex: 3;
+}
+
+
+
+			
+
+		/*footer*/
+
+.footer {
+	
+	align-items: stretch;
+	margin-left: 150px;
+	justify-content: space-between;
+}
+
+.podval {
+	display: flex;
+	align-items: center;
+}
+
+.row {
+	margin-right: 100px;
+}
+
+
+
+@media (max-width: 1440px){
+	.podval {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.row {
+		margin-right: 0;
+}
+}
+
+@media (max-width: 800px) {
+	.menu {
+		display: flex;
+		flex-direction: column;
+		display: none;
+	}
+
+	.nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+	}
+
+	.imgmain {
+		width: 100%;
+	}
+	.bol h2 {
+		position: absolute;
+		width: 400px;
+		height: 50px;
+		left: 50px;
+		top: 200px;
+
+		font-family: Segoe UI;
+		font-size: 30px;
+		line-height: 50px;
+		text-align: left;
+
+		color: #000000;
+
+	}
+
+	.bol h3 {
+		position: absolute;
+		width: 400px;
+		height: 50px;
+		left: 50px;
+		top: 300px;
+		font-family: Segoe UI;
+		font-size: 30px;
+		line-height: 64px;
+		text-align: left;
+
+		color: #000000;
+	}
+
+	h4 {
+	font-size: 40px;
+	margin-left: 250px;
+	font-style: oblique;
+	}
+
+	h6 {
+	font-size: 30px;
+	margin-left: 120px;
+	margin-bottom: 10px;
+	}
+
+	.container1 {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	font-size: 24px;
+	}
+	.container2 {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	font-size: 24px;
+	}
+	.container3 {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	font-size: 24px;
+	}
+
+	.box {
+		flex: 100%;
+	}
+
+	.box img {
+		margin: 0;
+	}
+
+	.map iframe {
+		width: 700px;
+		height: 600px;
+	}
+
+	.footer {
+	text-align: center;
+	align-items: stretch;
+	margin-left: 0;
+	justify-content: space-between;
+}
+
+.podval {
+	display: flex;
+	align-items: center;
+}
+
+.row {
+	margin-right: 0;
+}
+
+}
+
+
+}
+
+			
