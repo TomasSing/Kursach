@@ -442,22 +442,18 @@ background-color: white ;
 
 	}
 }
-
-
-
-
-.container3 {
+	.container3 {
 	display: flex;
 	align-items: stretch;
 	flex-direction: row;
 }
 
-.container3 img {
+	.container3 img {
 	margin-left: 100px;
 	margin-top: 100px;
 }
 
-.container3 div {
+	.container3 div {
 	padding-top: -150px;
 	padding-left: 250px;
 	border: 3px solid silver;
@@ -476,27 +472,11 @@ background-color: white ;
 
 	}
 }
-
-@media (max-width){
-.box {
-	flex: 3;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-	font-size: 25px;
+	
+	.box {
+		flex: 3;
 }
-}
-
-
-
-.box {
-flex: 3;
-}
-
-
-
-			
+		
 
 		/*footer*/
 
@@ -534,6 +514,11 @@ flex: 3;
 		display: flex;
 		flex-direction: column;
 		display: none;
+	}
+
+	h4 {
+		text-align: center;
+		margin: 0;
 	}
 
 	.nav {
@@ -627,6 +612,114 @@ flex: 3;
 	justify-content: space-between;
 }
 
+@media (max-width: 520px) {
+	.menu {
+		display: flex;
+		flex-direction: column;
+		display: none;
+	}
+
+	.logo {
+		max-width: 50%;
+	}
+	.nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+	}
+
+	.contact {
+		opacity: 0;
+	}
+
+	.imgmain {
+		width: 100%;
+	}
+	.bol h2 {
+		position: absolute;
+		width: 150px;
+		height: 50px;
+		left: 40px;
+		margin-top: -40px;
+
+		font-family: Segoe UI;
+		font-size: 20px;
+		line-height: 50px;
+		text-align: left;
+
+		color: #000000;
+
+	}
+
+	.bol h3 {
+		position: absolute;
+		width: 400px;
+		height: 60px;
+		left: 50px;
+		margin-top: -50px;
+		margin-left: -20px;
+		font-family: Segoe UI;
+		font-size: 20px;
+		line-height: 64px;
+		text-align: left;
+
+		color: #000000;
+	}
+
+	h4 {
+	position: relative;
+	width: 400px;
+	font-size: 30px;
+	margin: 0 0 0 0;
+	font-style: oblique;
+	}
+
+	h6 {
+	font-size: 25px;
+	margin-left: 60px;
+	margin-bottom: 10px;
+	}
+
+	.container1 {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	font-size: 24px;
+	}
+	.container2 {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	font-size: 24px;
+	}
+	.container3 {
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	font-size: 24px;
+	}
+
+	.box {
+		flex: 100%;
+	}
+
+	.box img {
+		margin: 0;
+	}
+
+	.map iframe {
+		width: 400px;
+		height: 600px;
+	}
+
+	.footer {
+	text-align: center;
+	align-items: stretch;
+	margin-left: 0;
+	justify-content: space-between;
+}
+
 .podval {
 	display: flex;
 	align-items: center;
@@ -635,10 +728,5 @@ flex: 3;
 .row {
 	margin-right: 0;
 }
-
 }
-
-
-}
-
-			
+}			

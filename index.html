@@ -20,14 +20,14 @@
       <div class="containermenu">
         <ul class="menu-barlist">
           <li class="with-drop">
-            <a href="#main">Главная</a>
+            <a href="#" data-goto=".main" class="menu-links">Главная</a>
           </li>
           <li class="with-drop">
-            <a href="#price">Цены</a>
+            <a href="#" data-goto=".price" class="menu-links">Цены</a>
           </li>
-          <li><a href="#!">Услуги</a></li>
-          <li><a href="#!">Скидки</a></li>
-          <li><a href="#!">Контакты</a></li>
+          <li><a href="#" data-goto=".uslugi" class="menu-links">Услуги</a></li>
+          <li><a href="#" data-goto=".sales" class="menu-links">Скидки</a></li>
+          <li><a href="#" data-goto=".contacts" class="menu-links">Контакты</a></li>
           </ul>
       </div>
     </div>
@@ -35,29 +35,29 @@
 				<img src="img/logo.svg" alt="Ultra Dent" class="logo">
 				<ul class="menu">
 				<li>
-					<a href="#main"> Главная </a>
+					<a href="#" data-goto=".main" class="menu-links"> Главная </a>
 				</li>
 
 				<li>
-					<a href="#price">
+					<a href="#" data-goto=".price" class="menu-links">
 						Цены
 					</a>
 				</li>
 
 				<li>
-					<a href="#sales">
+					<a href="#" data-goto=".sales" class="menu-links">
 						Скидки
 					</a>
 				</li>
 
 				<li>
-					<a href="#uslugi">
+					<a href="#" data-goto=".uslugi" class="menu-links">
 						Услуги
 					</a>
 				</li>
 
 				<li>
-					<a href="#contacts">
+					<a href="#" data-goto=".contacts" class="menu-links">
 						Контакты
 					</a>
 				</li>
@@ -82,15 +82,15 @@
 
 		</div>		
 	</header>
-	<a name="main"></a>
-	<section id="about" class="about">
+	
+	<section id="about" class="about main" >
 		<div class="container4" id="fon"> 
 			<img src="img/para.png" alt="" class="imgmain">
 		</div>
 		<div class="bol"><h2>Беспокоит зубная боль? </h2>
 			<h3>Вы обратились по адресу!</h3></div>
 
- 		<a name="price"></a>
+ 		<a class="price"></a>
 		<h4>Прейскурант цен</h4>
 		<div class="knopki">
 		<button class="menu_link">
@@ -179,7 +179,7 @@
 				Бюгельный протез - от 28000 руб <br></p>
 			</div>	
 
-			<a name="sales"></a>
+			<a class="sales"></a>
 				<button class="menu_link">
                 		Скидки
         		</button>
@@ -197,7 +197,7 @@
 				на протезирование — 5% <br></p> </div>	
 		</div>
 
-				<a name="uslugi"></a>
+				<a class="uslugi"></a>
 				<h6>Стоматологическая клиника Ultra Dent</h6>
 				<div class="container1">
 					<div class="box-1 box">
@@ -271,7 +271,7 @@
 									
 				
 	</section>
-	<a name="contacts"></a>
+	<a class="contacts"></a>
 	<footer id="footer" class="footer">
 		<div class="containerp">
 			<ul class="podval">
